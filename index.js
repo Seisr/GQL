@@ -7,6 +7,7 @@ const port = 8081;
 app.get("/"); ///
 
 console.log("");
+console.log("2");
 
 app.listen(port, () => {
   console.log(`BE start at ${port}`);
