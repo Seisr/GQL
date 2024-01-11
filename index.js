@@ -4,9 +4,10 @@ import express from "express";
 const app = express();
 const port = 8081;
 
-app.get("/");
+app.get("/"); ///
 
 console.log("");
+console.log("3");
 
 app.listen(port, () => {
   console.log(`BE start at ${port}`);
